@@ -8,10 +8,10 @@ import jakarta.persistence.Id;
 public class Admin_service
 {
 	@Id
-	@Column(name="id")
+	@Column(name="cid")
 	private int cid;               //GitRepository token: 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
 
-	@Column(name="name")
+	@Column(name="cname")
 	private String cname;
 	
 	@Column(name="age")
